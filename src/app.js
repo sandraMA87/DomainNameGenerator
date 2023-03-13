@@ -10,7 +10,7 @@ function domainNameGenerator() {
     for (let j = 0; j < adj.length; j++) {
       for (let k = 0; k < noun.length; k++) {
         for (let l = 0; l < final.length; l++) {
-          domain.push(pronoun[i] + adj[j] + noun[k] + final[l]);
+          domain.push(pronoun[i] + adj[j] + noun[k] + "." + final[l]);
         }
       }
     }
